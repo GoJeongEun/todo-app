@@ -1,0 +1,29 @@
+.todo-item {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transform: all 0.15s;
+    user-select: none;
+    font-size: 1.25rem;
+}
+.todo-item:hover {
+    background: #ffe5a8;
+}
+.todo-item Button:hover {
+    background: #ffa50a;
+}
+.todo-item Button {
+    border: none;
+    padding: 0.5rem;
+    background: #ffb917;
+    color: white;
+    border-radius: 3px;
+    margin: 0.25rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.todo-item + .todo-item {
+    border-top: 1px solid #f1f3f5;
+}

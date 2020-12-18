@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.todo-list-tampleate {
+  width: 600px;
+  box-shadow: 0 3px 6px rgba(0, 0,0, 0.16), 0 3px 6px rgba(0, 0,0, 0.23) ;
+  margin: 0 auto;
+  margin-top: 4rem;
+  height: auto;
+}
+.todo-list-title {
+  padding: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+  background: #ffb917;
+  color: white;
+}
+.todos-wrapper {
+  padding: 0;
+}
+.form {
+  display: flex;
+}
+.form Button {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: #ffb917;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+.form-wrapper {
+  padding: 1rem;
+}
+.form Button:hover {
+  background: #ffa50a;
+}
+.form input {
+  flex: 1;
+  font-size: 1.25rem;
+  outline: none;
+  border:none;
+  border-bottom: 1px solid #ffb917;
+}
+.form form input {
+  flex: 1;
+  font-size: 1.25rem;
+  outline: none;
+  border:none;
+  border-bottom: 1px solid #ffb917;
+}
+.pagination_Box{
+  display: flex;
+  justify-content: center;
+  padding:25px 0 25px 0;
+}
+.pagination{
+  display: inline-flex;
+  padding: 0;
+}
+.pagination .page-item {
+  margin-left: 5px;
+  border: none;
+  border-radius: 50px;
+  background: #ffb177;
+}
+
+.pagination .page-item a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.65rem;
+  line-height: 30px;
+  
+}
+.pagination .page-item:hover {
+ background: #ffb917;
+ 
+}
